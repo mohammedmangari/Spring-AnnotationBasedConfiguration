@@ -1,6 +1,8 @@
-package com.med.AnnotationBasedConfiguration;
+package com.med.AnnotationBasedConfiguration.repositories;
 
 import java.util.List;
+
+import com.med.AnnotationBasedConfiguration.models.Student;
 
 public interface StudentRepository {
 	void save(Student s);

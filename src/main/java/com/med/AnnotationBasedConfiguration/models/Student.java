@@ -1,4 +1,4 @@
-package com.med.AnnotationBasedConfiguration;
+package com.med.AnnotationBasedConfiguration.models;
 
 
 public class Student {

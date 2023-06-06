@@ -1,9 +1,10 @@
-package com.med.AnnotationBasedConfiguration;
+package com.med.AnnotationBasedConfiguration.services;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+import com.med.AnnotationBasedConfiguration.models.Student;
+import com.med.AnnotationBasedConfiguration.repositories.StudentRepository;
 
 public class StudentServiceImp implements StudentService  {
-
 
 	private StudentRepository studentrepo;
 

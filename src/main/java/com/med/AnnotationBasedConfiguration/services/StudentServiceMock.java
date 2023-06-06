@@ -1,9 +1,12 @@
-package com.med.AnnotationBasedConfiguration;
+package com.med.AnnotationBasedConfiguration.services;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.InitializingBean;
+
+import com.med.AnnotationBasedConfiguration.models.Student;
+import com.med.AnnotationBasedConfiguration.repositories.StudentRepository;
 
 public class StudentServiceMock implements StudentService,InitializingBean{
 
